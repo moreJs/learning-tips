@@ -19,3 +19,5 @@
  - unionOf(schemaMap, [options])
     * 这个我没看懂，从行为上来看，和valuesOf大致保持一致，就是多了一个schema字段
     * 目前看到，貌似和上个方法没有太大区别，后面再仔细研究研究
+
+# 扁平化的state,对于我们编写可靠高效的react应用是非常重要的
