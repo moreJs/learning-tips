@@ -1,0 +1,25 @@
+{
+  "name": "learning-tips",
+  "version": "1.0.0",
+  "description": "this is a collection about some uesfull tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moreJs/learning-tips.git"
+  },
+  "author": "huangjianlei.cool@163.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moreJs/learning-tips/issues"
+  },
+  "homepage": "https://github.com/moreJs/learning-tips#readme",
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  },
+  "dependencies": {
+    "normalizr": "~2.0.1"
+  }
+}
