@@ -20,6 +20,8 @@
     "registry": "http://registry.npm.alibaba-inc.com"
   },
   "dependencies": {
+    "immutable": "~3.8.0",
+    "immutable.js": "~1.1.2",
     "normalizr": "~2.0.1"
   }
 }
