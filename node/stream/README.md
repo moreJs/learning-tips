@@ -3,8 +3,10 @@
 ## stream 前言
   - stream 本身是node非常重要的一个组成部分，也是所有jser武器库中最锋利的一把尖刀，之前，对于stream的理解，一知半解，最近，项目中，有个复杂的任务流用 stream 来作为基础架构思想给 cover 了，顿时，对 stream 敬畏不已。
   - 因此，决定好好研究下
+
 ## 面向消费者的流
   - 流可以是 Readable Writable 或者 Duplex, 所有的流都是 EventEmitter 的
+
 ### Stream.Readable
   - 可读流接口，是对正在读取的数据来源的抽象
   - 包括两种模式：(流动模式 和 暂停模式),默认处于暂停模式
@@ -27,6 +29,7 @@
     - pause() 流动模式的流处于暂停状态
     - pipe() 该函数返回目标流，因此，可以建立导流链
     - unshift(chunk) '逆消费'，以便它可以传递给其他流
+
 ### Stream.Writable
   - 方法
     - write(chunk, [enc], [cb]) 向底层系统写入数据
