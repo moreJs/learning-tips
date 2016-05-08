@@ -37,4 +37,7 @@
   - 事件
     - finish 当end()被调用，并且所有数据都被写入底层的时候，触发该事件
     - pipe 可读流pipe到该可写流时
+
+### 参考资料
+  - http://reverland.org/javascript/2015/12/20/stream-in-nodejs/
 ----
