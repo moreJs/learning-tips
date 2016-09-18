@@ -1,13 +1,12 @@
 'use strict';
 
-import Moment from 'mini-moment';
 
 interface Person {
     firstName: string,
     lastName: string
 }
 
-function greeter<T>(person: T): T{
+function greeter<T extends string>(person: T): string{
     console.log('hello:'+ person);
     return '';
 };
