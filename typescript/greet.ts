@@ -1,6 +1,5 @@
 'use strict';
 
-
 interface Person {
     firstName: string,
     lastName: string
@@ -8,7 +7,7 @@ interface Person {
 
 function greeter<T extends string>(person: T): string{
     console.log('hello:'+ person);
-    return '';
+    return person;
 };
 
 function identity<T>(arg: T): T {
