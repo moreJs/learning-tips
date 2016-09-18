@@ -1,7 +1,5 @@
 'use strict';
 
-import Moment from 'mini-moment';
-
 interface Person {
     firstName: string,
     lastName: string
@@ -9,7 +7,7 @@ interface Person {
 
 function greeter<T>(person: T): T{
     console.log('hello:'+ person);
-    return '';
+    return person;
 };
 
 function identity<T>(arg: T): T {
