@@ -5,7 +5,7 @@ interface Person {
     lastName: string
 }
 
-function greeter<T>(person: T): T{
+function greeter<T extends string>(person: T): string{
     console.log('hello:'+ person);
     return person;
 };
